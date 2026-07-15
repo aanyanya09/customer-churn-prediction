@@ -1,6 +1,6 @@
 [theme]
 base = "dark"
-baseFontSize = 40
+baseFontSize = 18
 primaryColor = "#F59E0B"
 backgroundColor = "#0F0B1E"
 secondaryBackgroundColor = "#1A1430"
