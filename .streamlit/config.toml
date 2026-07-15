@@ -1,0 +1,18 @@
+[theme]
+base = "dark"
+baseFontSize = 40
+primaryColor = "#F59E0B"
+backgroundColor = "#0F0B1E"
+secondaryBackgroundColor = "#1A1430"
+textColor = "#EDEBFA"
+font = "sans serif"
+borderColor = "#2E2650"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#150F28"
+secondaryBackgroundColor = "#201A3D"
+textColor = "#D8D4F0"
+primaryColor = "#F59E0B"
+borderColor = "#332A5C"
+
