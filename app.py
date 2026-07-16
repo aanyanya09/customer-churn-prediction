@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="CUSTOMER CHURN PREDICTION", page_icon="📉",
     layout="wide",
@@ -143,28 +144,7 @@ if st.button("Predict Churn", type="primary"):
 
       else:
         st.success("🟢 Low Risk Customer")
-    importance = pd.DataFrame({
-    "Feature": columns,
-    "Importance": model.feature_importances_
-    })
-
-    importance = importance.sort_values(
-    by="Importance",
-    ascending=False
-    ).head(10)
-
-    fig, ax = plt.subplots(figsize=(8,5))
-
-    ax.barh(
-    importance["Feature"],
-    importance["Importance"]
-    )
-
-    ax.invert_yaxis()
-
-    st.subheader("⭐ Top 10 Important Features")
-
-    st.pyplot(fig)
+    
     st.subheader("Result")
 
     if pred == 1:
@@ -180,6 +160,15 @@ if st.button("Predict Churn", type="primary"):
     )
 
     st.progress(min(max(proba,0.0),1.0))
+    st.progress(min(max(proba,0.0),1.0))
+
+    chart = pd.DataFrame({
+    "Category": ["Stay", "Churn"],
+    "Probability": [1-proba, proba]
+    })
+
+    st.subheader("📊 Prediction Probability")
+    st.bar_chart(chart.set_index("Category"))
     st.balloons()
     summary = pd.DataFrame({
     "Feature": [
