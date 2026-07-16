@@ -7,8 +7,11 @@ Built with **Python**, **Scikit-learn**, and **Streamlit**.
 ---
 
 ## 🚀 Live Demo
+https://customer-churn-predictiongit-cus4e7cetkutycltuglgyo.streamlit.app/
 
-(Add your Streamlit app link here after deployment)
+## 💻 Source Code
+GitHub Repository:
+https://github.com/aanyanya09/customer-churn-prediction.git
 
 ---
 
