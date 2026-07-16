@@ -6,16 +6,16 @@ Built with **Python**, **Scikit-learn**, and **Streamlit**.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 https://customer-churn-predictiongit-cus4e7cetkutycltuglgyo.streamlit.app/
 
-## 💻 Source Code
+## Source Code
 GitHub Repository:
 https://github.com/aanyanya09/customer-churn-prediction
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is a major challenge for telecom companies. This project predicts customer churn based on customer information such as contract type, internet service, monthly charges, tenure, and other service-related features.
 
@@ -27,7 +27,7 @@ The application provides:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **IBM Telco Customer Churn Dataset**
 
@@ -47,7 +47,7 @@ Features include:
 
 ---
 
-## 🤖 Machine Learning Models Used
+##  Machine Learning Models Used
 
 The following models were trained and compared:
 
@@ -61,7 +61,7 @@ Random Forest was selected for deployment because it provided the best balance b
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 Evaluation metrics used:
 
@@ -73,7 +73,7 @@ Evaluation metrics used:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -86,7 +86,7 @@ Evaluation metrics used:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 customer-churn-prediction/
@@ -103,7 +103,7 @@ customer-churn-prediction/
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 Clone the repository:
 
@@ -125,7 +125,7 @@ streamlit run app.py
 
 ---
 
-## 📸 Application Preview
+##  Application Preview
 
 (Add a screenshot of your Streamlit app here)
 
@@ -135,7 +135,7 @@ Example:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Aanyanya**
 
