@@ -11,7 +11,7 @@ https://customer-churn-predictiongit-cus4e7cetkutycltuglgyo.streamlit.app/
 
 ## 💻 Source Code
 GitHub Repository:
-https://github.com/aanyanya09/customer-churn-prediction.git
+https://github.com/aanyanya09/customer-churn-prediction
 
 ---
 
